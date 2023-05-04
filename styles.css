@@ -21,3 +21,6 @@ body {
     text-decoration:none;
     color:linen;
   }
+  main {
+    display:grid; 
+    }
