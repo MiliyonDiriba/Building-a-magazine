@@ -26,6 +26,13 @@ body {
     grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
     row-gap:3rem;
   }
+  .social-icons {
+    display:grid;
+    font-size:3rem;
+    grid-template-columns:repeat(5,1fr);
+    grid-auto-flow:column;
+  }
+=======
   img {
   width:100%;
   object-fit:cover;
@@ -64,3 +71,4 @@ body {
     .publish-date {
       color:rgba(255, 255, 255, 0.5);
     }
+
