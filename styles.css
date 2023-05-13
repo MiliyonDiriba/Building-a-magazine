@@ -34,7 +34,6 @@ body {
     grid-auto-columns:1fr;
     align-items:center;
   }
-
   img {
   width:100%;
   object-fit:cover;
@@ -78,4 +77,19 @@ body {
     .publish-date {
       color:rgba(255, 255, 255, 0.5);
     }
-
+.first-paragraph::first-letter {
+      font-size:6rem;
+      color:orangered;
+      float:left;
+      margin-right:1rem;
+    }
+    hr {
+      margin:1.5rem 0;
+      border:1px solid rgba(120, 120, 120, 0.6);
+    }
+.quote {
+      color:#00beef;
+      font-size:2.4rem;
+      text-align:center;
+      font-family:Raleway, sans-serif;
+    }
