@@ -76,4 +76,7 @@ body {
       float:left;
       margin-right:1rem;
     }
+    hr {
+      margin:1.5rem 0;
+    }
 
