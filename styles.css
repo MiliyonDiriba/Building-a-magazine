@@ -34,7 +34,7 @@ body {
     grid-auto-columns:1fr;
     align-items:center;
   }
-=======
+
   img {
   width:100%;
   object-fit:cover;
@@ -52,7 +52,7 @@ body {
     column-width:25rem;
     text-align:justify;
 }
-  }
+  
 .hero {
     grid-column:1 / -1 ;
     position: relative;
