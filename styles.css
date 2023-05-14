@@ -93,3 +93,15 @@ body {
       text-align:center;
       font-family:Raleway, sans-serif;
     }
+    .quote::before {
+      content:'" ' 
+    }
+    .quote::after {
+      content:' "'
+    }
+ .text-with-images {
+      display:grid;
+      grid-template-columns:1fr 2fr;
+      column-gap:3rem;
+      margin-bottom:3rem;
+    }
